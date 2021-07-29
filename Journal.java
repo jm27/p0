@@ -6,13 +6,11 @@ import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/// TODO:  Refactor, add to maven, add tests, Simplify file input by index. NTH: SQL database, Server, UI ;
+
 class Journal{
     public static void main(String[] args){
-
         logic();
-//        Journal mb = new Journal();
-//        mb.ListFiles();
-
     }
 
     public void ListFiles() {
@@ -26,7 +24,6 @@ class Journal{
         File f = new File("C:\\Users\\jme27\\Documents\\Revature\\SakuraMatrix\\p0");
 
         File[] files = f.listFiles(txtFilter);
-        System.out.println("Please type File:");
         for (File file : files) {
             if(file.isDirectory()){
                 System.out.print("directory");
@@ -35,7 +32,7 @@ class Journal{
             }
             System.out.println(file.getName());
         }
-        System.out.println("Please type File:\n");
+
     }
 
     public String Time(){
@@ -47,17 +44,16 @@ class Journal{
 
     public static void logic(){
 
-        //// Fix input scan to check input in case not matching options !!
         try {
-            System.out.println("Welcome to your personal journal please type: create, write or read entry");
+            System.out.println("Welcome to your personal journal please type: create, write or read");
             Scanner action = new Scanner(System.in);
             String input = action.nextLine();
-            while(input != "create" || input != "read" || input != "write" ){
-                System.out.println(input);
+
+            while((!input.equals("create")) && (!input.equals("write"))  && (!input.equals("read"))){
                 System.out.println("Please type type one of these: create, write or read");
                 input = action.nextLine();
             }
-            action.close();
+
             Journal mb = new Journal();
             String time = mb.Time();
             switch (input.toLowerCase()){
@@ -69,8 +65,10 @@ class Journal{
                     break;
                 default: break;
             }
+
+            action.close();
         } catch (Exception e) {
-            System.out.println("Something went wrong");
+            System.out.println("Something went wrong logic");
             e.printStackTrace();
         }
 
@@ -89,7 +87,7 @@ class Journal{
                 System.out.println("File already exists!");
             }
         } catch (IOException e) {
-            System.out.println("Something went wrong");
+            System.out.println("Something went wrong creating");
             e.printStackTrace();
         }
     }
@@ -98,6 +96,7 @@ class Journal{
         // Get File
         try {
             ListFiles();
+            System.out.println("Please type File to write to:\n");
             Scanner inFile = new Scanner(System.in);
             String file = inFile.nextLine();
             System.out.println("Please enter text: ");
@@ -110,7 +109,7 @@ class Journal{
             inFile.close();
             System.out.println("Successfully wrote to file!");
         } catch (IOException e){
-            System.out.println("Something went wrong");
+            System.out.println("Something went wrong writing");
             e.printStackTrace();
         }
 
@@ -119,6 +118,7 @@ class Journal{
     public void Read(){
         try {
             ListFiles();
+            System.out.println("Please type File to read:\n");
             Scanner inFile = new Scanner(System.in);
             String file = inFile.nextLine();
             File entry = new File(file);
@@ -129,7 +129,7 @@ class Journal{
             }
             entryReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("Something went wrong");
+            System.out.println("Something went wrong reading");
             e.printStackTrace();
         }
     }
