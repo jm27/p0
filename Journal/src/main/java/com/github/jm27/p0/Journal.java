@@ -1,8 +1,11 @@
-/**
+package com.github.jm27.p0; /**
  * Imports
  */
 
 import java.io.*;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -10,13 +13,19 @@ import java.util.Scanner;
 /// TODO:  Refactor!, add tests, Simplify file input by index. NTH: SQL database, Server, UI ;
 
 class Journal {
+
+    final String PATH_NAME = Paths.get("Journal_Entries").toAbsolutePath().toString();
+
     public static void main(String[] args){
+//         final Path PATH_NAME = Paths.get("Journal_Entries").toAbsolutePath();
         Journal mb = new Journal();
         Scanner action = new Scanner(System.in);
         logic(mb, action);
+//        System.out.println(PATH_NAME);
     }
 
     public void ListFiles() {
+
         /// List files
         FilenameFilter txtFilter = new FilenameFilter() {
             @Override
@@ -24,18 +33,26 @@ class Journal {
                 return name.toLowerCase().endsWith(".txt");
             }
         };
-        File f = new File("C:\\Users\\jme27\\Documents\\Revature\\SakuraMatrix\\p0\\Journal");
+        File f = new File(PATH_NAME);
 
         File[] files = f.listFiles(txtFilter);
         for (File file : files) {
             if(file.isDirectory()){
                 System.out.print("directory");
             } else {
-                System.out.print("\tfile:");
+                System.out.print("\tfile: ");
             }
             System.out.println(file.getName());
         }
 
+    }
+
+    public File createFile(Scanner input, String action){
+        ListFiles();
+        System.out.println("Please type file to " + action + ":\n");
+        String fileName = input.nextLine();
+        File file = new File(PATH_NAME + "\\" + fileName);
+        return file;
     }
 
     public String Time(){
@@ -52,14 +69,14 @@ class Journal {
 
         try {
             System.out.println("Welcome to your personal journal please type: create, write, read, delete or exit");
-            String input = action.nextLine();
+            String input = action.nextLine().toLowerCase();
 
             while((!input.equals("delete")) && (!input.equals("create")) && (!input.equals("write"))  && (!input.equals("read")) && (!input.equals("exit"))){
                 System.out.println("Please type type one of these: create, write, read, delete or exit");
                 input = action.nextLine();
             }
 
-            switch (input.toLowerCase()){
+            switch (input){
                 case "create": mb.Create(time+".txt", action);
                                 logic(mb, action);
                     break;
@@ -89,16 +106,17 @@ class Journal {
     public void Create(String fileName, Scanner input){
         try{
             System.out.println("Please type your new file's name, if no name a default will be provided!");
-            String userInput = input.nextLine() == "" ? fileName : input.nextLine() +".txt"; //// FIX!
+            String userInput = !input.next().equals("") ? fileName : input.nextLine() +".txt"; //// FIX!
+            System.out.println(userInput);
             // Create new File
-            File newFile = new File(userInput);
+//            File newFile = new File(PATH_NAME +"\\"+ userInput);
             // If file was created successfully.
-            if(newFile.createNewFile()){
-                System.out.println("File " + userInput + " Created Successfully!");
-            } else {
-                System.out.println("File already exists!");
-            }
-        } catch (IOException e) {
+//            if(newFile.createNewFile()){
+//                System.out.println("File " + userInput + " Created Successfully!");
+//            } else {
+//                System.out.println("File already exists!");
+//            }
+        } catch (Exception e) {
             System.out.println("Something went wrong creating");
             e.printStackTrace();
         }
@@ -107,9 +125,7 @@ class Journal {
     public void Write(boolean append, Scanner input){
         // Get File
         try {
-            ListFiles();
-            System.out.println("Please type File to write to:\n");
-            String file = input.nextLine();
+            File file = createFile(input, "write to");
             System.out.println("Please enter text: ");
             String text = input.nextLine();
             FileWriter entry = new FileWriter(file, append);
@@ -126,17 +142,13 @@ class Journal {
 
     public void Read(Scanner input){
         try {
-            ListFiles();
-            System.out.println("Please type File to read:\n");
-            String file = input.nextLine();
-            File entry = new File(file);
+            File entry = createFile(input, "read");
             Scanner entryReader = new Scanner(entry);
             while( entryReader.hasNextLine()){
                 String data = entryReader.nextLine();
                 System.out.println(data);
             }
             entryReader.close();
-//            input.close();
         } catch (FileNotFoundException e) {
             System.out.println("Something went wrong reading");
             e.printStackTrace();
@@ -145,10 +157,7 @@ class Journal {
 
     public void Delete(Scanner input){
         try {
-            ListFiles();
-            System.out.println("Please type file to delete:\n");
-            String file = input.nextLine();
-            File entry = new File(file);
+            File entry = createFile(input, "delete");
             String output = entry.delete() ? "File " +
                     entry.getName() +
                     " Deleted successfully" : "Could not delete file, make sure there are no typos, or this file actually exists!";
