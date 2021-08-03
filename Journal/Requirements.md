@@ -2,7 +2,7 @@
 A Java CLI (command-line interface) or server program. Program should accept and parse command-line args, stdin (standard input), text files, web APIs, or socket/HTTP request, and produce some output to stdout (standard output), a file/SQL database, or socket/HTTP response. Programs should start simple and features should be added constantly. Your program should also be managed by a build tool (Maven), well tested, well documented, and should produce log output.
 
 ## Suggested Ideas
-- Journal/note taking app
+- com.github.jm27.p0.Journal/note taking app
 - Calculator
 - To-do app
 - Business/Account management system

@@ -1,7 +1,7 @@
-## Journal Dev Notes
+## com.github.jm27.p0.Journal Dev Notes
 
 # Overview
-Personal Journal of notes from Lectures. This program allows user to create notes and store them in chronological order, to be retrieved when needed.
+Personal com.github.jm27.p0.Journal of notes from Lectures. This program allows user to create notes and store them in chronological order, to be retrieved when needed.
 
 # User Stories 
 - As an Admin, I want to organize work, so that I can have control over my notes.
