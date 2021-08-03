@@ -1,10 +1,10 @@
 package com.github.jm27.p0.application;
-
-
+/*
+ * Imports
+ */
 import com.github.jm27.p0.domain.Journal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.util.Scanner;
 
 public class Config {
@@ -23,16 +23,16 @@ public class Config {
             }
 
             switch (input){
-                case "create": mb.Create(action);
+                case "create": mb.createEntry(action);
                     logic(mb, action);
                     break;
-                case "write": mb.Write(true, action);
+                case "write": mb.writeEntry(true, action);
                     logic(mb, action);
                     break;
-                case "read": mb.Read(action);
+                case "read": mb.readEntry(action);
                     logic(mb, action);
                     break;
-                case "delete": mb.Delete(action);
+                case "delete": mb.deleteEntry(action);
                     logic(mb, action);
                     break;
                 case "exit": System.out.println("Closing Journal, Have a great day!");
