@@ -93,3 +93,494 @@
 2021-08-03 20:38:04,632 INFO main logger - Starting Journal logic waiting for user input
 2021-08-03 20:38:07,328 INFO main logger - user input exit
 2021-08-03 20:38:07,328 INFO main logger - Closing Journal
+2021-08-04 08:44:43,818 INFO main logger.io - new Journal entry..
+2021-08-04 08:44:44,181 INFO main logger - Getting time and format 04-Aug-2021-08-44
+2021-08-04 08:44:44,223 INFO main logger.io - new Journal entry test.txt.txt Created Successfully!
+2021-08-04 08:45:14,790 INFO main logger.io - new Journal entry..
+2021-08-04 08:45:14,955 INFO main logger - Getting time and format 04-Aug-2021-08-45
+2021-08-04 08:45:15,002 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 08:45:37,649 INFO main logger - Starting application...
+2021-08-04 08:45:37,676 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 08:45:44,007 INFO main logger - user input create
+2021-08-04 08:45:44,008 INFO main logger.io - new Journal entry..
+2021-08-04 08:45:44,052 INFO main logger - Getting time and format 04-Aug-2021-08-45
+2021-08-04 08:45:48,687 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 08:45:48,687 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 08:45:53,435 INFO main logger - user input create
+2021-08-04 08:45:53,436 INFO main logger.io - new Journal entry..
+2021-08-04 08:45:53,437 INFO main logger - Getting time and format 04-Aug-2021-08-45
+2021-08-04 08:45:55,599 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 08:45:55,599 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 08:49:48,064 INFO main logger - Creating file
+2021-08-04 08:49:48,081 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:49:48,085 INFO main logger - Displaying files
+2021-08-04 08:49:48,193 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 08:49:48,194 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:49:48,199 INFO main logger - File found in array
+2021-08-04 08:49:48,218 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 08:55:25,447 INFO main logger - Creating file
+2021-08-04 08:55:25,458 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:55:25,461 INFO main logger - Displaying files
+2021-08-04 08:55:25,486 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 08:55:25,500 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:55:25,508 INFO main logger - File found in array
+2021-08-04 08:55:25,526 INFO main logger.io - Successfully read file test.txt
+2021-08-04 08:58:53,560 INFO main logger - Creating file
+2021-08-04 08:58:53,569 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:58:53,573 INFO main logger - Displaying files
+2021-08-04 08:58:53,596 INFO main logger - Checking if doNotDelete.txt exists in files array
+2021-08-04 08:58:53,596 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 08:58:53,604 WARN main logger - File not found in array
+2021-08-04 08:58:53,604 INFO main logger - Displaying files
+2021-08-04 08:58:53,608 ERROR main logger.io - Something went wrong while deleting file!
+2021-08-04 09:00:01,543 INFO main logger - Creating file
+2021-08-04 09:00:01,574 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:00:01,577 INFO main logger - Displaying files
+2021-08-04 09:00:01,617 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:00:01,618 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:00:01,626 INFO main logger - File found in array
+2021-08-04 09:00:01,645 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:01:15,667 INFO main logger.io - new Journal entry..
+2021-08-04 09:01:15,796 INFO main logger - Getting time and format 04-Aug-2021-09-01
+2021-08-04 09:01:15,830 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:01:30,604 INFO main logger.io - new Journal entry..
+2021-08-04 09:01:30,717 INFO main logger - Getting time and format 04-Aug-2021-09-01
+2021-08-04 09:01:30,738 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 09:01:46,658 INFO main logger - Creating file
+2021-08-04 09:01:46,666 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:01:46,668 INFO main logger - Displaying files
+2021-08-04 09:01:46,695 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:01:46,695 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:01:46,700 INFO main logger - File found in array
+2021-08-04 09:01:46,716 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 09:02:01,001 INFO main logger - Creating file
+2021-08-04 09:02:01,016 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:01,019 INFO main logger - Displaying files
+2021-08-04 09:02:01,066 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:02:01,067 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:01,073 INFO main logger - File found in array
+2021-08-04 09:02:01,101 INFO main logger.io - Successfully read file test.txt
+2021-08-04 09:02:12,106 INFO main logger - Creating file
+2021-08-04 09:02:12,122 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:12,126 INFO main logger - Displaying files
+2021-08-04 09:02:12,160 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:02:12,161 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:12,170 INFO main logger - File found in array
+2021-08-04 09:02:12,184 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:02:31,222 INFO main logger.io - new Journal entry..
+2021-08-04 09:02:31,324 INFO main logger - Getting time and format 04-Aug-2021-09-02
+2021-08-04 09:02:31,356 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:02:31,362 INFO main logger - Creating file
+2021-08-04 09:02:31,362 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,366 INFO main logger - Displaying files
+2021-08-04 09:02:31,374 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:02:31,375 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,381 INFO main logger - File found in array
+2021-08-04 09:02:31,387 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 09:02:31,391 INFO main logger - Creating file
+2021-08-04 09:02:31,391 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,392 INFO main logger - Displaying files
+2021-08-04 09:02:31,400 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:02:31,401 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,405 INFO main logger - File found in array
+2021-08-04 09:02:31,411 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:02:31,421 INFO main logger.io - new Journal entry..
+2021-08-04 09:02:31,433 INFO main logger - Getting time and format 04-Aug-2021-09-02
+2021-08-04 09:02:31,445 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:02:31,502 INFO main logger - Creating file
+2021-08-04 09:02:31,502 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,504 INFO main logger - Displaying files
+2021-08-04 09:02:31,514 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:02:31,514 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:02:31,515 INFO main logger - File found in array
+2021-08-04 09:02:31,520 INFO main logger.io - Successfully read file test.txt
+2021-08-04 09:03:17,782 INFO main logger.io - new Journal entry..
+2021-08-04 09:03:17,943 INFO main logger - Getting time and format 04-Aug-2021-09-03
+2021-08-04 09:03:17,966 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 09:03:17,968 INFO main logger - Creating file
+2021-08-04 09:03:17,969 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:17,973 INFO main logger - Displaying files
+2021-08-04 09:03:17,978 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:17,978 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:17,984 INFO main logger - File found in array
+2021-08-04 09:03:17,988 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:03:18,008 INFO main logger - Creating file
+2021-08-04 09:03:18,008 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,010 INFO main logger - Displaying files
+2021-08-04 09:03:18,014 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:18,014 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,015 WARN main logger - File not found in array
+2021-08-04 09:03:18,016 INFO main logger - Displaying files
+2021-08-04 09:03:18,020 INFO main logger - Checking if Hello World! exists in files array
+2021-08-04 09:03:18,021 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,023 WARN main logger - File not found in array
+2021-08-04 09:03:18,025 INFO main logger - Displaying files
+2021-08-04 09:03:18,033 INFO main logger - Creating file
+2021-08-04 09:03:18,033 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,034 INFO main logger - Displaying files
+2021-08-04 09:03:18,044 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:18,045 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,045 WARN main logger - File not found in array
+2021-08-04 09:03:18,046 INFO main logger - Displaying files
+2021-08-04 09:03:18,055 ERROR main logger.io - Something went wrong while deleting file!
+2021-08-04 09:03:18,086 INFO main logger.io - new Journal entry..
+2021-08-04 09:03:18,086 INFO main logger - Getting time and format 04-Aug-2021-09-03
+2021-08-04 09:03:18,101 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:03:18,102 INFO main logger - Creating file
+2021-08-04 09:03:18,103 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,108 INFO main logger - Displaying files
+2021-08-04 09:03:18,116 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:18,117 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,118 INFO main logger - File found in array
+2021-08-04 09:03:18,125 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:03:18,147 INFO main logger - Creating file
+2021-08-04 09:03:18,148 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,151 INFO main logger - Displaying files
+2021-08-04 09:03:18,158 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:18,159 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,160 WARN main logger - File not found in array
+2021-08-04 09:03:18,161 INFO main logger - Displaying files
+2021-08-04 09:03:18,167 INFO main logger - Creating file
+2021-08-04 09:03:18,167 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,168 INFO main logger - Displaying files
+2021-08-04 09:03:18,180 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:03:18,181 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:03:18,182 WARN main logger - File not found in array
+2021-08-04 09:03:18,182 INFO main logger - Displaying files
+2021-08-04 09:03:18,196 ERROR main logger.io - Something went wrong while deleting file!
+2021-08-04 09:04:25,616 INFO main logger.io - new Journal entry..
+2021-08-04 09:04:25,830 INFO main logger - Getting time and format 04-Aug-2021-09-04
+2021-08-04 09:04:25,886 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:04:25,891 INFO main logger - Creating file
+2021-08-04 09:04:25,892 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,898 INFO main logger - Displaying files
+2021-08-04 09:04:25,911 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:04:25,912 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,920 INFO main logger - File found in array
+2021-08-04 09:04:25,954 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 09:04:25,963 INFO main logger - Creating file
+2021-08-04 09:04:25,963 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,965 INFO main logger - Displaying files
+2021-08-04 09:04:25,971 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:04:25,972 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,974 INFO main logger - File found in array
+2021-08-04 09:04:25,979 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:04:25,982 INFO main logger - Creating file
+2021-08-04 09:04:25,983 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,984 INFO main logger - Displaying files
+2021-08-04 09:04:25,992 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:04:25,992 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:04:25,993 WARN main logger - File not found in array
+2021-08-04 09:04:25,994 INFO main logger - Displaying files
+2021-08-04 09:21:35,456 INFO main logger - Creating file
+2021-08-04 09:21:35,468 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,471 INFO main logger - Displaying files
+2021-08-04 09:21:35,501 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:21:35,502 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,507 WARN main logger - File not found in array
+2021-08-04 09:21:35,507 INFO main logger - Displaying files
+2021-08-04 09:21:35,513 ERROR main logger.io - Something went wrong while deleting file!
+2021-08-04 09:21:35,521 INFO main logger - Creating file
+2021-08-04 09:21:35,522 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,523 INFO main logger - Displaying files
+2021-08-04 09:21:35,530 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:21:35,531 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,532 WARN main logger - File not found in array
+2021-08-04 09:21:35,533 INFO main logger - Displaying files
+2021-08-04 09:21:35,537 INFO main logger - Checking if Hello World! exists in files array
+2021-08-04 09:21:35,537 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,538 WARN main logger - File not found in array
+2021-08-04 09:21:35,539 INFO main logger - Displaying files
+2021-08-04 09:21:35,568 INFO main logger.io - new Journal entry..
+2021-08-04 09:21:35,689 INFO main logger - Getting time and format 04-Aug-2021-09-21
+2021-08-04 09:21:35,725 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:21:35,742 INFO main logger - Creating file
+2021-08-04 09:21:35,743 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,749 INFO main logger - Displaying files
+2021-08-04 09:21:35,768 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:21:35,771 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:21:35,773 INFO main logger - File found in array
+2021-08-04 09:21:35,777 INFO main logger.io - Successfully read file test.txt
+2021-08-04 09:24:33,563 INFO main logger.io - new Journal entry..
+2021-08-04 09:24:33,670 INFO main logger - Getting time and format 04-Aug-2021-09-24
+2021-08-04 09:24:33,711 WARN main logger.io - Journal entry test.txt already exists!
+2021-08-04 09:24:33,741 INFO main logger - Creating file
+2021-08-04 09:24:33,742 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,748 INFO main logger - Displaying files
+2021-08-04 09:24:33,760 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:33,761 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,793 INFO main logger - File found in array
+2021-08-04 09:24:33,817 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 09:24:33,826 INFO main logger - Creating file
+2021-08-04 09:24:33,827 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,828 INFO main logger - Displaying files
+2021-08-04 09:24:33,842 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:33,842 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,844 INFO main logger - File found in array
+2021-08-04 09:24:33,850 INFO main logger.io - Successfully read file test.txt
+2021-08-04 09:24:33,856 INFO main logger - Creating file
+2021-08-04 09:24:33,857 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,860 INFO main logger - Displaying files
+2021-08-04 09:24:33,864 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:33,864 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:33,866 INFO main logger - File found in array
+2021-08-04 09:24:33,871 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:24:50,099 INFO main logger.io - new Journal entry..
+2021-08-04 09:24:50,231 INFO main logger - Getting time and format 04-Aug-2021-09-24
+2021-08-04 09:24:50,268 INFO main logger.io - new Journal entry test.txt Created Successfully!
+2021-08-04 09:24:50,273 INFO main logger - Creating file
+2021-08-04 09:24:50,273 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,279 INFO main logger - Displaying files
+2021-08-04 09:24:50,290 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:50,291 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,304 INFO main logger - File found in array
+2021-08-04 09:24:50,309 INFO main logger.io - Successfully updated file test.txt
+2021-08-04 09:24:50,313 INFO main logger - Creating file
+2021-08-04 09:24:50,313 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,315 INFO main logger - Displaying files
+2021-08-04 09:24:50,324 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:50,324 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,328 INFO main logger - File found in array
+2021-08-04 09:24:50,333 INFO main logger.io - Successfully read file test.txt
+2021-08-04 09:24:50,337 INFO main logger - Creating file
+2021-08-04 09:24:50,337 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,338 INFO main logger - Displaying files
+2021-08-04 09:24:50,373 INFO main logger - Checking if test.txt exists in files array
+2021-08-04 09:24:50,373 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:24:50,378 INFO main logger - File found in array
+2021-08-04 09:24:50,514 INFO main logger.io - Journal entry test.txt deleted successfully
+2021-08-04 09:26:24,210 INFO main logger.io - new Journal entry..
+2021-08-04 09:26:24,376 INFO main logger - Getting time and format 04-Aug-2021-09-26
+2021-08-04 09:26:24,409 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:26:24,417 INFO main logger.io - new Journal entry..
+2021-08-04 09:26:24,419 INFO main logger - Getting time and format 04-Aug-2021-09-26
+2021-08-04 09:26:24,423 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:26:24,428 INFO main logger - Creating file
+2021-08-04 09:26:24,430 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,435 INFO main logger - Displaying files
+2021-08-04 09:26:24,441 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:26:24,441 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,446 INFO main logger - File found in array
+2021-08-04 09:26:24,452 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:26:24,462 INFO main logger - Creating file
+2021-08-04 09:26:24,463 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,464 INFO main logger - Displaying files
+2021-08-04 09:26:24,472 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:26:24,473 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,474 INFO main logger - File found in array
+2021-08-04 09:26:24,480 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:26:24,489 INFO main logger - Creating file
+2021-08-04 09:26:24,489 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,490 INFO main logger - Displaying files
+2021-08-04 09:26:24,503 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:26:24,504 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:26:24,506 INFO main logger - File found in array
+2021-08-04 09:26:24,511 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:45:03,374 INFO main logger.io - new Journal entry..
+2021-08-04 09:45:03,486 INFO main logger - Getting time and format 04-Aug-2021-09-45
+2021-08-04 09:45:03,510 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:47:35,743 INFO main logger.io - new Journal entry..
+2021-08-04 09:47:35,879 INFO main logger - Getting time and format 04-Aug-2021-09-47
+2021-08-04 09:47:35,907 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:49:21,532 INFO main logger - Creating file
+2021-08-04 09:49:21,549 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:49:21,551 INFO main logger - Displaying files
+2021-08-04 09:49:21,563 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:49:21,563 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:49:21,567 INFO main logger - File found in array
+2021-08-04 09:49:21,578 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:49:53,930 INFO main logger - Creating file
+2021-08-04 09:49:53,997 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:49:54,001 INFO main logger - Displaying files
+2021-08-04 09:49:54,014 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:49:54,015 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:49:54,020 INFO main logger - File found in array
+2021-08-04 09:49:54,036 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:50:33,832 INFO main logger - Creating file
+2021-08-04 09:50:33,853 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:33,856 INFO main logger - Displaying files
+2021-08-04 09:50:33,870 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:50:33,871 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:33,878 INFO main logger - File found in array
+2021-08-04 09:50:33,893 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:50:46,731 INFO main logger.io - new Journal entry..
+2021-08-04 09:50:46,810 INFO main logger - Getting time and format 04-Aug-2021-09-50
+2021-08-04 09:50:46,834 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:50:46,841 INFO main logger.io - new Journal entry..
+2021-08-04 09:50:46,842 INFO main logger - Getting time and format 04-Aug-2021-09-50
+2021-08-04 09:50:46,845 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:50:46,847 INFO main logger - Creating file
+2021-08-04 09:50:46,848 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,852 INFO main logger - Displaying files
+2021-08-04 09:50:46,856 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:50:46,856 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,863 INFO main logger - File found in array
+2021-08-04 09:50:46,867 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:50:46,871 INFO main logger - Creating file
+2021-08-04 09:50:46,871 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,872 INFO main logger - Displaying files
+2021-08-04 09:50:46,881 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:50:46,882 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,883 INFO main logger - File found in array
+2021-08-04 09:50:46,887 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:50:46,898 INFO main logger - Creating file
+2021-08-04 09:50:46,898 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,901 INFO main logger - Displaying files
+2021-08-04 09:50:46,910 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:50:46,910 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:50:46,911 INFO main logger - File found in array
+2021-08-04 09:50:46,920 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:52:31,836 INFO main logger.io - new Journal entry..
+2021-08-04 09:52:31,915 INFO main logger - Getting time and format 04-Aug-2021-09-52
+2021-08-04 09:52:31,934 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:52:31,943 INFO main logger.io - new Journal entry..
+2021-08-04 09:52:31,944 INFO main logger - Getting time and format 04-Aug-2021-09-52
+2021-08-04 09:52:31,946 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:52:31,948 INFO main logger - Creating file
+2021-08-04 09:52:31,948 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,951 INFO main logger - Displaying files
+2021-08-04 09:52:31,958 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:31,958 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,964 INFO main logger - File found in array
+2021-08-04 09:52:31,969 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:52:31,972 INFO main logger - Creating file
+2021-08-04 09:52:31,972 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,974 INFO main logger - Displaying files
+2021-08-04 09:52:31,976 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:31,978 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,979 INFO main logger - File found in array
+2021-08-04 09:52:31,982 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:52:31,984 INFO main logger - Creating file
+2021-08-04 09:52:31,984 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,985 INFO main logger - Displaying files
+2021-08-04 09:52:31,988 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:31,989 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:31,991 INFO main logger - File found in array
+2021-08-04 09:52:31,994 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:52:48,121 INFO main logger.io - new Journal entry..
+2021-08-04 09:52:48,216 INFO main logger - Getting time and format 04-Aug-2021-09-52
+2021-08-04 09:52:48,253 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:52:48,261 INFO main logger.io - new Journal entry..
+2021-08-04 09:52:48,262 INFO main logger - Getting time and format 04-Aug-2021-09-52
+2021-08-04 09:52:48,264 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:52:48,266 INFO main logger - Creating file
+2021-08-04 09:52:48,267 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,273 INFO main logger - Displaying files
+2021-08-04 09:52:48,280 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:48,280 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,286 INFO main logger - File found in array
+2021-08-04 09:52:48,292 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:52:48,293 INFO main logger - Creating file
+2021-08-04 09:52:48,294 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,295 INFO main logger - Displaying files
+2021-08-04 09:52:48,299 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:48,299 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,300 INFO main logger - File found in array
+2021-08-04 09:52:48,306 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:52:48,317 INFO main logger - Creating file
+2021-08-04 09:52:48,318 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,322 INFO main logger - Displaying files
+2021-08-04 09:52:48,334 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:52:48,335 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:52:48,342 INFO main logger - File found in array
+2021-08-04 09:52:48,346 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:53:23,550 INFO main logger.io - new Journal entry..
+2021-08-04 09:53:23,662 INFO main logger - Getting time and format 04-Aug-2021-09-53
+2021-08-04 09:53:23,694 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:53:23,713 INFO main logger.io - new Journal entry..
+2021-08-04 09:53:23,714 INFO main logger - Getting time and format 04-Aug-2021-09-53
+2021-08-04 09:53:23,718 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:53:23,728 INFO main logger - Creating file
+2021-08-04 09:53:23,731 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,738 INFO main logger - Displaying files
+2021-08-04 09:53:23,743 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:53:23,744 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,752 INFO main logger - File found in array
+2021-08-04 09:53:23,760 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:53:23,765 INFO main logger - Creating file
+2021-08-04 09:53:23,767 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,780 INFO main logger - Displaying files
+2021-08-04 09:53:23,792 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:53:23,792 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,793 INFO main logger - File found in array
+2021-08-04 09:53:23,800 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:53:23,812 INFO main logger - Creating file
+2021-08-04 09:53:23,814 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,815 INFO main logger - Displaying files
+2021-08-04 09:53:23,828 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:53:23,828 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:53:23,829 INFO main logger - File found in array
+2021-08-04 09:53:23,838 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:58:14,388 DEBUG main logger.debugger - Test A Create entry running
+2021-08-04 09:58:14,418 INFO main logger.io - new Journal entry..
+2021-08-04 09:58:14,514 INFO main logger - Getting time and format 04-Aug-2021-09-58
+2021-08-04 09:58:14,534 INFO main logger.io - new Journal entry test0.txt Created Successfully!
+2021-08-04 09:58:14,534 DEBUG main logger.debugger - Test A Create entry passed
+2021-08-04 09:58:14,540 DEBUG main logger.debugger - Test B Duplicate Create entry running
+2021-08-04 09:58:14,541 INFO main logger.io - new Journal entry..
+2021-08-04 09:58:14,542 INFO main logger - Getting time and format 04-Aug-2021-09-58
+2021-08-04 09:58:14,545 WARN main logger.io - Journal entry test0.txt already exists!
+2021-08-04 09:58:14,545 DEBUG main logger.debugger - Test B Duplicate Create entry passed
+2021-08-04 09:58:14,546 DEBUG main logger.debugger - Test C Write entry running
+2021-08-04 09:58:14,547 INFO main logger - Creating file
+2021-08-04 09:58:14,548 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,552 INFO main logger - Displaying files
+2021-08-04 09:58:14,556 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:58:14,556 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,562 INFO main logger - File found in array
+2021-08-04 09:58:14,567 INFO main logger.io - Successfully updated file test0.txt
+2021-08-04 09:58:14,568 DEBUG main logger.debugger - Test C Write entry Passed
+2021-08-04 09:58:14,569 DEBUG main logger.debugger - Test D Read entry running
+2021-08-04 09:58:14,571 INFO main logger - Creating file
+2021-08-04 09:58:14,571 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,572 INFO main logger - Displaying files
+2021-08-04 09:58:14,577 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:58:14,579 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,580 INFO main logger - File found in array
+2021-08-04 09:58:14,588 INFO main logger.io - Successfully read file test0.txt
+2021-08-04 09:58:14,588 DEBUG main logger.debugger - Test D read entry passed
+2021-08-04 09:58:14,594 DEBUG main logger.debugger - Test F Delete entry running
+2021-08-04 09:58:14,596 INFO main logger - Creating file
+2021-08-04 09:58:14,597 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,600 INFO main logger - Displaying files
+2021-08-04 09:58:14,610 INFO main logger - Checking if test0.txt exists in files array
+2021-08-04 09:58:14,610 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 09:58:14,611 INFO main logger - File found in array
+2021-08-04 09:58:14,617 INFO main logger.io - Journal entry test0.txt deleted successfully
+2021-08-04 09:58:14,618 DEBUG main logger.debugger - Test F Delete entry passed
+2021-08-04 10:00:21,714 INFO main logger - Starting application...
+2021-08-04 10:00:21,751 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 10:00:26,260 INFO main logger - user input create
+2021-08-04 10:00:26,260 INFO main logger.io - new Journal entry..
+2021-08-04 10:00:26,312 INFO main logger - Getting time and format 04-Aug-2021-10-00
+2021-08-04 10:00:27,610 INFO main logger.io - new Journal entry 04-Aug-2021-10-00.txt Created Successfully!
+2021-08-04 10:00:27,610 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 10:00:32,144 INFO main logger - user input write
+2021-08-04 10:00:32,144 INFO main logger - Creating file
+2021-08-04 10:00:32,144 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:00:32,148 INFO main logger - Displaying files
+2021-08-04 10:00:38,079 INFO main logger - Checking if newEntry.txt exists in files array
+2021-08-04 10:00:38,079 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:00:38,092 INFO main logger - File found in array
+2021-08-04 10:00:48,908 INFO main logger.io - Successfully updated file newEntry.txt
+2021-08-04 10:00:48,908 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 10:00:55,969 INFO main logger - user input read
+2021-08-04 10:00:55,970 INFO main logger - Creating file
+2021-08-04 10:00:55,971 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:00:55,972 INFO main logger - Displaying files
+2021-08-04 10:00:59,842 INFO main logger - Checking if newEntry.txt exists in files array
+2021-08-04 10:00:59,843 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:00:59,844 INFO main logger - File found in array
+2021-08-04 10:00:59,852 INFO main logger.io - Successfully read file newEntry.txt
+2021-08-04 10:00:59,852 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 10:01:06,636 INFO main logger - user input delete
+2021-08-04 10:01:06,636 INFO main logger - Creating file
+2021-08-04 10:01:06,636 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:01:06,637 INFO main logger - Displaying files
+2021-08-04 10:01:09,396 INFO main logger - Checking if no.txt exists in files array
+2021-08-04 10:01:09,396 INFO main logger - Getting Files from C:\Users\jme27\Documents\Revature\SakuraMatrix\p0\Journal\Journal_Entries
+2021-08-04 10:01:09,398 INFO main logger - File found in array
+2021-08-04 10:01:09,403 INFO main logger.io - Journal entry no.txt deleted successfully
+2021-08-04 10:01:09,403 INFO main logger - Starting Journal logic waiting for user input
+2021-08-04 10:01:12,162 INFO main logger - user input exit
+2021-08-04 10:01:12,163 INFO main logger - Closing Journal

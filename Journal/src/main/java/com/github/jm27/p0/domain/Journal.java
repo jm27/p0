@@ -21,7 +21,7 @@ public class Journal {
     final Helpers helpers = new Helpers();
 
     // Create entry
-    public void createEntry(Scanner input) {
+    public boolean createEntry(Scanner input) {
         try {
             LOG.info("new Journal entry..");
             System.out.println("Please type your new file's name, if no name a default will be provided!");
@@ -40,15 +40,17 @@ public class Journal {
             } else {
                 System.out.println("File already exists!");
                 LOG.warn("Journal entry " + userInput + " already exists!");
+                return false;
             }
         } catch (Exception e) {
             LOG.error("Something went wrong creating");
             e.printStackTrace();
         }
+        return true;
     }
 
     // Write Entry
-    public void writeEntry(boolean append, Scanner input) {
+    public boolean writeEntry(boolean append, Scanner input) {
         // Get File
         try {
             File file = helpers.createFile(input, "write to", PATH_NAME);
@@ -62,11 +64,12 @@ public class Journal {
         } catch (IOException e) {
             LOG.error("Something went wrong writing");
             e.printStackTrace();
+            return false;
         }
-
+        return true;
     }
 
-    public void readEntry(Scanner input) {
+    public boolean readEntry(Scanner input) {
         try {
             File entry = helpers.createFile(input, "read", PATH_NAME);
             Scanner entryReader = new Scanner(entry);
@@ -79,10 +82,12 @@ public class Journal {
         } catch (FileNotFoundException e) {
             LOG.error("Something went wrong reading");
             e.printStackTrace();
+            return false;
         }
+        return true;
     }
 
-    public void deleteEntry(Scanner input) {
+    public boolean deleteEntry(Scanner input) {
         try {
             File entry = helpers.createFile(input, "delete", PATH_NAME);
             String output;
@@ -92,11 +97,13 @@ public class Journal {
             } else {
                 output = "Could not delete file, make sure there are no typos, or this file actually exists!";
                 LOG.warn("Make sure file exists and there are no typos!");
+                return false;
             }
             System.out.println(output);
         } catch (Exception e) {
             LOG.error("Something went wrong while deleting file!");
             e.printStackTrace();
         }
+        return true;
     }
 }
